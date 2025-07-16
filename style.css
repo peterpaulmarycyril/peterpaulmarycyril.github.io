@@ -48,3 +48,16 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
+.yt-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #a259ff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.yt-button:hover {
+  background-color: #7d3fc7;
+}

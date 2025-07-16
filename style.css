@@ -1,0 +1,33 @@
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+h1 {
+  color: #bb86fc;
+  font-size: 3em;
+}
+
+h2 {
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.video-container {
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.credit {
+  margin-top: 50px;
+  color: #888;
+}

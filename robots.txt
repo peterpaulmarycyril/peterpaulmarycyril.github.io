@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://peterpaulmarycyril.github.io/sitemap.xml

@@ -1,9 +1,8 @@
+README — Mise à jour section musique
 
-Site officiel de Peter Paul Mary Cyril – Version avec lecteur YouTube intégré.
+Seule modification : remplacement du lecteur audio par embed YouTube.
 
-Fichiers :
-- index.html : page principale
-- style.css : mise en forme du site
-- README.txt : ce fichier
-
-Déposez le tout sur GitHub Pages dans la racine du dépôt.
+1. Remplacer l'ancien bloc <audio> dans index.html par le nouveau code iframe (voir fichier index.html).
+2. Copier / coller styles.css si tu n'as pas encore de styles pour .video-container.
+3. Garde tout le reste du site inchangé : structure, contenus, styles existants.
+4. Vérifie bien que la page “Musique” fonctionne comme prévu après mise en ligne.

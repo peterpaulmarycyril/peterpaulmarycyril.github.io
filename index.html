@@ -106,5 +106,16 @@ Bienvenue dans un monde où les mots chantent et les sons racontent.
   <footer>
     <p>© 2025 Peter Paul Mary Cyril</p>
   </footer>
+<!-- Date automatiquement mise à jour -->
+<p id="auto-updated-date" style="text-align:center; font-size:14px; color:gray;"></p>
+<script>
+(function () {
+  const el = document.getElementById('auto-updated-date');
+  if (!el) return;
+  const options = { timeZone: 'Europe/Paris', year: 'numeric', month: 'long', day: 'numeric' };
+  const today = new Intl.DateTimeFormat('fr-FR', options).format(new Date());
+  el.textContent = "Mis à jour automatiquement : " + today;
+})();
+</script>
 </body>
 </html>

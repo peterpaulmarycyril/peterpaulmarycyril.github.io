@@ -136,7 +136,457 @@ Bienvenue dans un monde où les mots chantent et les sons racontent.
   el.textContent = "Mis à jour automatiquement : " + today;
 })();
 </script>
-</body>
-</html>
+</body><!-- =========================================================
+     SECTION : BLOWING IN THE WIND
+     Peter Paul Mary Cyril
+     ========================================================= -->
+
+<section id="blowing-in-the-wind" class="ppmc-track">
+
+  <div class="ppmc-track-glow"></div>
+
+  <div class="ppmc-track-content">
+
+    <span class="ppmc-kicker">PETER PAUL MARY CYRIL</span>
+
+    <h2>Blowing in the Wind</h2>
+
+    <div class="ppmc-line"></div>
+
+    <p class="ppmc-subtitle">
+      Une vibration Pop Electro Poetic entre rêve, mouvement
+      et liberté.
+    </p>
+
+    <!-- Pochette -->
+    <div class="ppmc-cover">
+      <div class="ppmc-cover-inner">
+        <span>BLOWING<br>IN THE WIND</span>
+        <small>PETER PAUL MARY CYRIL</small>
+      </div>
+    </div>
+
+    <!-- Boutons -->
+    <div class="ppmc-actions">
+
+      <a
+        href="https://www.youtube.com/@peterpaulmarycyril"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="ppmc-youtube"
+      >
+        <span class="ppmc-youtube-icon">▶</span>
+        ÉCOUTER SUR YOUTUBE
+      </a>
+
+    </div>
+
+    <!-- QR CODE -->
+    <div class="ppmc-qr-wrapper">
+
+      <p class="ppmc-qr-title">
+        SCANNE & ÉCOUTE
+      </p>
+
+      <div class="ppmc-qr">
+        <img
+          src="IMG_0114.PNG"
+          alt="QR code pour écouter Blowing in the Wind de Peter Paul Mary Cyril"
+          loading="lazy"
+        >
+      </div>
+
+      <p class="ppmc-qr-text">
+        Scanne le QR code avec ton téléphone
+        pour retrouver le titre.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+</html>/* =========================================================
+   PPMC — BLOWING IN THE WIND
+   POP ELECTRO POETIC
+   ========================================================= */
+
+.ppmc-track {
+  position: relative;
+  overflow: hidden;
+  min-height: 900px;
+  padding: 100px 20px;
+  background:
+    radial-gradient(
+      circle at 50% 25%,
+      rgba(170, 70, 255, 0.18),
+      transparent 35%
+    ),
+    radial-gradient(
+      circle at 20% 80%,
+      rgba(100, 40, 180, 0.10),
+      transparent 30%
+    ),
+    #050507;
+
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Halo décoratif */
+
+.ppmc-track-glow {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background: radial-gradient(
+    circle,
+    rgba(190, 70, 255, 0.12) 0%,
+    rgba(120, 40, 200, 0.05) 35%,
+    transparent 70%
+  );
+
+  filter: blur(30px);
+  pointer-events: none;
+}
+
+/* Contenu */
+
+.ppmc-track-content {
+  position: relative;
+  z-index: 2;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+/* Signature */
+
+.ppmc-kicker {
+  display: block;
+  margin-bottom: 18px;
+
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 5px;
+
+  color: #c86cff;
+  text-shadow:
+    0 0 10px rgba(200, 108, 255, 0.7),
+    0 0 25px rgba(200, 108, 255, 0.3);
+}
+
+/* Titre */
+
+.ppmc-track h2 {
+  margin: 0;
+
+  font-size: clamp(42px, 8vw, 78px);
+  line-height: 0.95;
+  font-weight: 800;
+
+  letter-spacing: -2px;
+
+  background: linear-gradient(
+    90deg,
+    #ffffff,
+    #e9caff,
+    #b84cff,
+    #ffffff
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+  text-shadow:
+    0 0 30px rgba(190, 70, 255, 0.15);
+}
+
+/* Ligne */
+
+.ppmc-line {
+  width: 80px;
+  height: 2px;
+  margin: 28px auto;
+
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #c85cff,
+    transparent
+  );
+
+  box-shadow:
+    0 0 15px rgba(200, 90, 255, 0.8);
+}
+
+/* Sous-titre */
+
+.ppmc-subtitle {
+  max-width: 600px;
+  margin: 0 auto 50px;
+
+  font-size: 16px;
+  line-height: 1.7;
+
+  color: rgba(255, 255, 255, 0.72);
+}
+
+/* =========================================================
+   POCHETTE
+   ========================================================= */
+
+.ppmc-cover {
+  position: relative;
+
+  width: 280px;
+  height: 280px;
+
+  margin: 0 auto 35px;
+
+  padding: 10px;
+
+  border-radius: 50%;
+
+  background: linear-gradient(
+    145deg,
+    #ffffff,
+    #8d8d8d,
+    #ffffff
+  );
+
+  box-shadow:
+    0 0 0 1px rgba(255,255,255,0.4),
+    0 0 35px rgba(190, 70, 255, 0.35),
+    0 0 90px rgba(150, 50, 255, 0.12);
+}
+
+.ppmc-cover-inner {
+  width: 100%;
+  height: 100%;
+
+  border-radius: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background:
+    radial-gradient(
+      circle at 50% 35%,
+      #262029,
+      #08080a 65%
+    );
+
+  border: 2px solid rgba(255,255,255,0.15);
+
+  box-shadow:
+    inset 0 0 50px rgba(0,0,0,0.9);
+}
+
+.ppmc-cover-inner span {
+  font-size: 27px;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: 2px;
+
+  color: #d35cff;
+
+  text-shadow:
+    0 0 10px rgba(210, 80, 255, 0.9),
+    0 0 30px rgba(210, 80, 255, 0.5);
+}
+
+.ppmc-cover-inner small {
+  margin-top: 18px;
+
+  font-size: 8px;
+  letter-spacing: 3px;
+
+  color: rgba(255,255,255,0.65);
+}
+
+/* =========================================================
+   BOUTON YOUTUBE
+   ========================================================= */
+
+.ppmc-actions {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 55px;
+}
+
+.ppmc-youtube {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+
+  padding: 15px 26px;
+
+  border-radius: 50px;
+
+  background: #ff0000;
+  color: #ffffff;
+
+  text-decoration: none;
+
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 1px;
+
+  box-shadow:
+    0 8px 30px rgba(255, 0, 0, 0.25);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.ppmc-youtube:hover {
+  transform: translateY(-4px) scale(1.03);
+
+  box-shadow:
+    0 12px 40px rgba(255, 0, 0, 0.4);
+}
+
+.ppmc-youtube-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 25px;
+  height: 25px;
+
+  border-radius: 50%;
+
+  background: rgba(255,255,255,0.95);
+  color: #ff0000;
+
+  font-size: 11px;
+}
+
+/* =========================================================
+   QR CODE
+   ========================================================= */
+
+.ppmc-qr-wrapper {
+  margin: 0 auto;
+  max-width: 430px;
+}
+
+.ppmc-qr-title {
+  margin-bottom: 18px;
+
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 4px;
+
+  color: #c86cff;
+}
+
+.ppmc-qr {
+  display: inline-block;
+
+  padding: 12px;
+
+  background: #ffffff;
+
+  border-radius: 24px;
+
+  box-shadow:
+    0 0 0 1px rgba(255,255,255,0.25),
+    0 0 30px rgba(200, 80, 255, 0.2),
+    0 20px 60px rgba(0,0,0,0.5);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.ppmc-qr:hover {
+  transform: scale(1.025);
+
+  box-shadow:
+    0 0 0 1px rgba(255,255,255,0.4),
+    0 0 45px rgba(200, 80, 255, 0.4),
+    0 25px 70px rgba(0,0,0,0.6);
+}
+
+.ppmc-qr img {
+  display: block;
+
+  width: min(390px, 75vw);
+  height: auto;
+
+  border-radius: 14px;
+}
+
+.ppmc-qr-text {
+  max-width: 350px;
+  margin: 20px auto 0;
+
+  font-size: 13px;
+  line-height: 1.6;
+
+  color: rgba(255,255,255,0.55);
+}
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 600px) {
+
+  .ppmc-track {
+    min-height: auto;
+    padding: 75px 15px;
+  }
+
+  .ppmc-kicker {
+    font-size: 9px;
+    letter-spacing: 3px;
+  }
+
+  .ppmc-track h2 {
+    font-size: 43px;
+  }
+
+  .ppmc-subtitle {
+    font-size: 14px;
+    margin-bottom: 35px;
+  }
+
+  .ppmc-cover {
+    width: 230px;
+    height: 230px;
+  }
+
+  .ppmc-cover-inner span {
+    font-size: 21px;
+  }
+
+  .ppmc-youtube {
+    width: 100%;
+    max-width: 320px;
+    justify-content: center;
+
+    padding: 16px 20px;
+  }
+
+  .ppmc-qr {
+    padding: 8px;
+    border-radius: 18px;
+  }
+
+  .ppmc-qr img {
+    width: 82vw;
+    max-width: 380px;
+  }
+}
 
  </style>

@@ -137,4 +137,49 @@ Bienvenue dans un monde où les mots chantent et les sons racontent.
 })();
 </script>
 </body>
-</html>
+</html><section class="qr-section">
+  <h2>Blowing in the Wind</h2>
+  <p>Scanne le QR code pour écouter le titre.</p>
+
+  <a href="#" class="qr-link" aria-label="Écouter Blowing in the Wind">
+    <img
+      src="IMG_0114.PNG"
+      alt="QR code – Blowing in the Wind – Peter Paul Mary Cyril"
+      class="qr-code"
+    >
+  </a>
+</section>
+
+<style>
+  .qr-section {
+    text-align: center;
+    padding: 50px 20px;
+  }
+
+  .qr-section h2 {
+    margin-bottom: 10px;
+  }
+
+  .qr-section p {
+    margin-bottom: 25px;
+    opacity: 0.8;
+  }
+
+  .qr-link {
+    display: inline-block;
+  }
+
+  .qr-code {
+    display: block;
+    width: min(420px, 90vw);
+    height: auto;
+    margin: auto;
+    border-radius: 24px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+
+  .qr-link:hover .qr-code {
+    transform: scale(1.03);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+  }
+</style>

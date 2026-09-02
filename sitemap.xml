@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://peterpaulmarycyril.github.io/</loc>
-    <priority>1.0</priority>
-  </url>
-</urlset>https://peterpaulmarycyril.github.io/
-https://peterpaulmarycyril.github.io/clips.html
-https://peterpaulmarycyril.github.io/musique.html
-https://peterpaulmarycyril.github.io/contact.html
 
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://peterpaulmarycyril.github.io/</loc>
     <priority>1.0</priority>
   </url>
+
+  <url>
+    <loc>https://peterpaulmarycyril.github.io/clips.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://peterpaulmarycyril.github.io/musique.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://peterpaulmarycyril.github.io/contact.html</loc>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>

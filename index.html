@@ -404,7 +404,16 @@
   defer
   src="https://cloud.umami.is/script.js"
   data-website-id="fc4e8541-123c-4902-adc0-5f9ab7f6890b">
+</script><script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js')
+        .then((reg) => console.log('Application activée avec succès !', reg.scope))
+        .catch((err) => console.log('Erreur d\'activation :', err));
+    });
+  }
 </script>
+
 
 </body>
 </html>
